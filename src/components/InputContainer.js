@@ -18,7 +18,12 @@ export default class InputContainer extends Component{
 
     render(){
         return(
-            <textarea rows="22" type="text" ref="inputValue" value={this.props.value} onChange={this._update} className="form-control" />
+            <div>
+                <h4>Your MD Journal</h4>
+                <div className="input-field">
+                    <textarea id="md-input" className="materialize-textarea" rows="30" type="text" value={this.props.value} onChange={this._update} />
+                </div>
+            </div>
         )
     }
 }
