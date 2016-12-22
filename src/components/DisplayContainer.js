@@ -33,7 +33,7 @@ export default class DisplayContainer extends Component{
 
     _rawMarkup(value){
         var rawMarkup = marked(value, { sanitize: true });
-        return { html: rawMarkup };
+        return rawMarkup;
     }
 
     _updateValue(modifiedValue){
