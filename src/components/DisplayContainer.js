@@ -20,11 +20,10 @@ export default class DisplayContainer extends Component{
         return(
             <div className="row">
                 <div className="col-md-6">
-                    <InputContainer value = {this.state.value} updateValue= { this.updateValue } />
+                    <InputContainer value={this.state.value} updateValue={ this.updateValue } />
                 </div>
                 <div className="col-md-6">
-                    <span>
-                        {this._rawMarkup(this.state.value)}
+                    <span dangerouslySetInnerHTML={this._rawMarkup(this.state.value)}>
                     </span>
                 </div>
             </div>
@@ -33,7 +32,7 @@ export default class DisplayContainer extends Component{
 
     _rawMarkup(value){
         var rawMarkup = marked(value, { sanitize: true });
-        return rawMarkup;
+        return {__html: rawMarkup};
     }
 
     _updateValue(modifiedValue){

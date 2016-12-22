@@ -17,7 +17,7 @@ export default class InputContainer extends Component{
 
     render(){
         return(
-            <textarea rows = "22" type= "text" ref= "inputValue" value= {this.props.value} onChange= {this._update} className= "form-control" />
+            <textarea rows="22" type="text" ref="inputValue" value={this.props.value} onChange={this._update} className="form-control" />
         )
     }
 }
