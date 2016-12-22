@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/BrianLusina/Markdown-Journal/issues"
   },
-  "homepage": "https://BrianLusina.github.io/Markdown-Journal",
+  "homepage": "https://brianlusina.github.io/Markdown-Journal/",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "jquery": "^3.1.1",
