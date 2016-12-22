@@ -23,9 +23,11 @@ export default class DisplayContainer extends Component{
                     <InputContainer value={this.state.value} updateValue={ this._updateValue } />
                 </div>
                 <div className="col s6">
-                    <h4>Preview</h4>
-                    <span dangerouslySetInnerHTML={this._rawMarkup(this.state.value)}>
-                    </span>
+                    <h6>Preview:</h6>
+                    <div className="card medium">
+                        <span dangerouslySetInnerHTML={this._rawMarkup(this.state.value)}>
+                        </span>
+                    </div>
                 </div>
             </div>
         )
