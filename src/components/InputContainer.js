@@ -18,9 +18,12 @@ export default class InputContainer extends Component{
 
     render(){
         return(
-            <div>
-                <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-                <div className="input-field">
+            <div className="row">
+                <div className="col s12">
+                    <a id="save-journal" className="col s3 waves-effect waves-light btn">Save</a>
+                    <a id="md-cheatsheet" className="col s3 waves-effect waves-light btn">Cheatsheet</a>                    
+                </div>
+                <div className="col s12 input-field">
                     <textarea id="md-input" className="materialize-textarea" rows="30" type="text" value={this.props.value} onChange={this._update} />
                 </div>
             </div>

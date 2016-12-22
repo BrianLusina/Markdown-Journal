@@ -18,7 +18,7 @@ export default class DisplayContainer extends Component{
     }
     render(){
         return(
-            <div className="row">
+            <div id="journal-body" className="row">
                 <div className="col s6">
                     <InputContainer value={this.state.value} updateValue={ this._updateValue } />
                 </div>
