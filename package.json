@@ -1,0 +1,37 @@
+{
+  "name": "md-journal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Markdown preview build on ReactJS",
+  "main": "index.js",
+  "author": {
+    "name": "Brian Lusina",
+    "email": "lusinabrian@gmail.com",
+    "url": "https://thelusina.netlify.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrianLusina/Markdown-Journal"
+  },
+  "keywords": [
+    "Markdown previewer",
+    "React Markdown",
+    "ReactJS Markdown",
+    "Markdown Journal"
+  ],
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "jquery": "^3.1.1",
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
