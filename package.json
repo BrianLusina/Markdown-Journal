@@ -29,7 +29,7 @@
       "git-scripts": "^0.2.1",
       "surge": "^0.18.0",    
     "materialize-css": "^0.97.8",
-    "react-materialize": "^0.17.6",
+    "react-materialize": "^0.18.4",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
