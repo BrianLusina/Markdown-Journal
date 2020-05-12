@@ -26,19 +26,20 @@
     "gh-pages": "^0.12.0",
     "jquery": "^3.5.1",
     "marked": "^0.3.18",
-      "git-scripts": "^0.2.1",
-      "surge": "^0.18.0",    
+    "git-scripts": "^0.2.1",
+    "surge": "^0.18.0",
     "materialize-css": "^0.100.2",
     "react-materialize": "^0.18.4",
     "react-scripts": "0.9.5"
   },
   "dependencies": {
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "snyk": "^1.320.2"
   },
-  "git":{
-    "scripts":{
-      "pre-push":"surge --project ./build --domain markdownjournal.surge.sh"
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./build --domain markdownjournal.surge.sh"
     }
   },
   "scripts": {
@@ -46,6 +47,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "deploy": "npm run build&&gh-pages -d build",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
