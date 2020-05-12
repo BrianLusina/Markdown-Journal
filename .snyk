@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
+    - react-scripts > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
+    - react-scripts > babel-preset-react-app > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-12T06:37:53.899Z'
