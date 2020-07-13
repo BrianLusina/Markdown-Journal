@@ -27,7 +27,7 @@
     "jquery": "^3.5.1",
     "marked": "^0.3.18",
     "git-scripts": "^0.2.1",
-    "surge": "^0.18.0",
+    "surge": "^0.21.4",
     "materialize-css": "^0.100.2",
     "react-materialize": "^0.18.4",
     "react-scripts": "0.9.5"
