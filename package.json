@@ -30,12 +30,12 @@
     "surge": "^0.21.4",
     "materialize-css": "^0.100.2",
     "react-materialize": "^0.18.4",
-    "react-scripts": "1.0.11"
+    "react-scripts": "3.0.0"
   },
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "snyk": "^1.361.3"
+    "snyk": "^1.362.1"
   },
   "git": {
     "scripts": {
