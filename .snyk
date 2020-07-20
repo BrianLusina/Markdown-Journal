@@ -9039,6 +9039,8 @@ patch:
         patched: '2020-07-20T04:49:44.170Z'
     - react-scripts > babel-preset-react-app > babel-preset-env > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
         patched: '2020-07-20T04:49:44.170Z'
+    - react-scripts > eslint > lodash:
+        patched: '2020-07-20T05:28:47.497Z'
   'npm:minimatch:20160620':
     - react-scripts > jest > jest-cli > istanbul-api > fileset > minimatch:
         patched: '2020-05-12T06:38:40.140Z'
