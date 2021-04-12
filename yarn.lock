@@ -9595,10 +9595,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.3.tgz#3551c4958c4da36897bda2a16812ef1399c8d6b0"
-  integrity sha512-5otztIIcJfPc2qGTN8cVtOJEjNJZ0jwa46INMagrYfk0EvqtRuEHLsEe0LrFS0/q+ZRKT0+kXK7P2T1AN5lWRA==
+marked@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
+  integrity sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
 
 matcher@^3.0.0:
   version "3.0.0"
@@ -13762,10 +13762,10 @@ surge-ignore@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/surge-ignore/-/surge-ignore-0.2.0.tgz#5a7f8a20a71188cf9e75a2cfe8eb182de90daf3b"
 
-surge@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/surge/-/surge-0.23.0.tgz#aefb30620221a198c228ed3b9f45a2c4e8b23e74"
-  integrity sha512-9SJEREttCb/aMpp7hcNHh33hniv1Lh3hI22TqHKGHU6YEYU4Iovs11K4vtgWhODAyCY1md2/vHj1M35MI6WnBg==
+surge@^0.21.7:
+  version "0.21.7"
+  resolved "https://registry.yarnpkg.com/surge/-/surge-0.21.7.tgz#30fa45ac7eea9ae0e14f7acf12b78feae4a34970"
+  integrity sha512-XcMY2Z3I4kBZ1zVTOkeKmTcnAy/r9Mnu87+/3fAaN6ZCVnNy4Qtdh6ai77NwyORIltRP1cOn05sAi+nYoy5taQ==
   dependencies:
     cli-table3 "^0.5.1"
     colors "^1.4.0"
